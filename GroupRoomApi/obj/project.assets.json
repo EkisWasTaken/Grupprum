@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Dev\\Desktop\\Projects\\X\\Grupprum\\GroupRoomApi\\GroupRoomApi.csproj",
+      "projectUniqueName": "C:\\Users\\Dev\\Desktop\\Projects\\Grupprum\\GroupRoomApi\\GroupRoomApi.csproj",
       "projectName": "GroupRoomApi",
-      "projectPath": "C:\\Users\\Dev\\Desktop\\Projects\\X\\Grupprum\\GroupRoomApi\\GroupRoomApi.csproj",
+      "projectPath": "C:\\Users\\Dev\\Desktop\\Projects\\Grupprum\\GroupRoomApi\\GroupRoomApi.csproj",
       "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Dev\\Desktop\\Projects\\X\\Grupprum\\GroupRoomApi\\obj\\",
+      "outputPath": "C:\\Users\\Dev\\Desktop\\Projects\\Grupprum\\GroupRoomApi\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

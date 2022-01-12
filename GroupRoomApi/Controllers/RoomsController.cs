@@ -5,11 +5,11 @@ namespace GroupRoomApi.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class RoomController
+    public class RoomsController
     {
         private readonly IRoomRepository _roomRepository;
 
-        public RoomController(IRoomRepository roomRepository)
+        public RoomsController(IRoomRepository roomRepository)
         {
             _roomRepository = roomRepository;
         }
