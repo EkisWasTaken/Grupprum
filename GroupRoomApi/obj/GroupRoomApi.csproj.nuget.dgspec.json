@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\RageQuitORCH\\Source\\Repos\\Grupprum\\GroupRoomApi\\GroupRoomApi.csproj": {}
+    "C:\\Users\\Dev\\Desktop\\Projects\\Grupprum\\GroupRoomApi\\GroupRoomApi.csproj": {}
   },
   "projects": {
-    "C:\\Users\\RageQuitORCH\\Source\\Repos\\Grupprum\\GroupRoomApi\\GroupRoomApi.csproj": {
+    "C:\\Users\\Dev\\Desktop\\Projects\\Grupprum\\GroupRoomApi\\GroupRoomApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\RageQuitORCH\\Source\\Repos\\Grupprum\\GroupRoomApi\\GroupRoomApi.csproj",
+        "projectUniqueName": "C:\\Users\\Dev\\Desktop\\Projects\\Grupprum\\GroupRoomApi\\GroupRoomApi.csproj",
         "projectName": "GroupRoomApi",
-        "projectPath": "C:\\Users\\RageQuitORCH\\Source\\Repos\\Grupprum\\GroupRoomApi\\GroupRoomApi.csproj",
-        "packagesPath": "C:\\Users\\RageQuitORCH\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\RageQuitORCH\\Source\\Repos\\Grupprum\\GroupRoomApi\\obj\\",
+        "projectPath": "C:\\Users\\Dev\\Desktop\\Projects\\Grupprum\\GroupRoomApi\\GroupRoomApi.csproj",
+        "packagesPath": "C:\\Users\\Dev\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Dev\\Desktop\\Projects\\Grupprum\\GroupRoomApi\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\RageQuitORCH\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Dev\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +43,36 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -57,7 +91,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.101\\RuntimeIdentifierGraph.json"
         }
       }
     }
