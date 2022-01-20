@@ -46,7 +46,7 @@ namespace GroupRoomApi.Controllers
           return Ok();
         }
 
-        [HttpPost("{id}")]
+        [HttpPost]
         public ActionResult<Booking> AddBooking(Booking booking)
         {
           Booking newBooking = new Booking()
