@@ -1,1 +1,35 @@
-﻿dfsdfmsdlkgfg ghej
+﻿/** ROOM **/
+
+//GET ROOM ID
+[HttpGet("{RoomId}")]
+Get all rooms by id
+
+//ADD ROOM 
+[HttpPost("{Room}")]
+Add one room object
+
+//REMOVE ROOM
+[HttpPost("{RoomId}")]
+Remove one room by id
+
+//UPDATE ROOM
+[HttpPost("{RoomId, RoomName, RoomInfo}")]
+Update one room name and informatio by room id
+
+/** BOOKING **/
+
+//GET BOOKED ROOM ID
+[HttpPost("{BookingId}")]
+Get all booked room by id
+
+//ADD BOOKED ROOM 
+[HttpPost("{Booking}")]
+Add one booked room object
+
+//REMOVE BOOKED ROOM
+[HttpPost("{BookingId}")]
+Remove one booked room by id
+
+//UPDATE BOOK ROOM
+[HttpPost("{BookingId, BookingName, BookingStartTime, BookingEndTime}")]
+Update name, start time and end time by booked room id
