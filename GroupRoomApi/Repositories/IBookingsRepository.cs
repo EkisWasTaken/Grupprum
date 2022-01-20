@@ -9,7 +9,7 @@ namespace GroupRoomApi.Repositories
         Booking GetBooking(long id);
         bool AddBooking(Booking booking);
         bool RemoveBooking(long id);
-        bool UpdateBooking(long id, DateTime newTime);
+        bool UpdateBooking(long id, DateTime newStart, DateTime newEnd);
 
     }
 }

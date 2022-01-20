@@ -36,6 +36,7 @@ namespace GroupRoomApi.Controllers
         public ActionResult UpdateBooking(long id, DateTime newStart, DateTime newEnd)
         {
           _repository.UpdateBooking(id, newStart, newEnd);
+          return Ok();
         }
     }
 }
