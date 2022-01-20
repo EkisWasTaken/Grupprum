@@ -38,5 +38,26 @@ namespace GroupRoomApi.Controllers
           _repository.UpdateBooking(id, newStart, newEnd);
           return Ok();
         }
+
+        [HttpDelete("{id}")]
+        public ActionResult RemoveBooking(long id)
+        {
+          _repository.RemoveBooking(id);
+          return Ok();
+        }
+
+        [HttpPost("{id}")]
+        public ActionResult<Booking> AddBooking(Booking booking)
+        {
+          Booking newBooking = new Booking()
+          {
+            Id = booking.Id,
+            Name = booking.Name,
+            StartTime = booking.StartTime,
+            EndTime = booking.EndTime 
+          };
+          _repository.AddBooking(booking);
+          return CreatedAtAction(nameof(GetBooking), new { Id = booking.Id }, booking);
+        }
     }
 }
