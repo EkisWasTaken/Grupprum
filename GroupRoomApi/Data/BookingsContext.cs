@@ -25,11 +25,6 @@ namespace Bookings.Data
             modelBuilder.Entity<Booking>(entity =>
             {
                 entity.Property(e => e.Id).ValueGeneratedNever();
-
-                entity.HasOne(d => d.RoomNavigation)
-                    .WithMany(p => p.Bookings)
-                    .HasForeignKey(d => d.Room)
-                    .OnDelete(DeleteBehavior.ClientSetNull);
             });
 
             modelBuilder.Entity<Room>(entity =>
