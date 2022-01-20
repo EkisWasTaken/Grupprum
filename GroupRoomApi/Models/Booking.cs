@@ -10,7 +10,5 @@ namespace Bookings.Models
         public long Start { get; set; }
         public long End { get; set; }
         public string Password { get; set; } = null!;
-
-        public virtual Room RoomNavigation { get; set; } = null!;
     }
 }
